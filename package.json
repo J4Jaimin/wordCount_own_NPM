@@ -1,0 +1,16 @@
+{
+    "name": "wordkount",
+    "version": "1.0.0",
+    "description": "Give your file path and get word count for each and every word contains by your file.",
+    "main": "app.cjs",
+    "module": "app.mjs",
+    "exports": {
+        "import": "./app.mjs",
+        "require": "./app.cjs"
+    },
+    "bin": {
+        "wordkount": "./bin/app.mjs"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
